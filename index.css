@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+    font-family: Helvetica;
+    background-color: rgb(223, 213, 202);
+}
+
+/* #flexbox-container {
+    display: flex;
+    margin: 20px;
+} */
+
+#site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#site-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    color: white;
+    background-color: brown;
+}
+
+#picture-and-text {
+    display: flex;
+    flex-direction: row;
+}
+
+#picture-and-text aside img {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+#picture-and-text div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#rand-stuff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48vw;
+}
+
+#rand-stuff .div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#rand-stuff .div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#six-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#six-images img {
+    width: 100px;
+    height: 100px;
+}
+
+#site-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50vw;
+}
+
+#site-form .question {
+    height: 50px;
+}
+
+#site-form button {
+    width: 100px;
+}
