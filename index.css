@@ -90,3 +90,7 @@ body {
 #site-form button {
     width: 100px;
 }
+
+#site-form #email-input {
+    width: 200px;
+}
